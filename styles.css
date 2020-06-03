@@ -72,3 +72,23 @@ header {
   padding: 12px;
   border-radius: 50px;
 }
+
+/* ========== features style ============ */
+.feature {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px -0.5px 6px 0px #A0A0A0;
+}
+.feature p {
+  margin-top: 20px;
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5rem;
+}
+.feature-img {
+  margin-bottom: 40px;
+}
+.feature-img img {
+  width: 100%;
+}
