@@ -76,7 +76,7 @@ header {
 /* ========== features style ============ */
 .feature {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0px -0.5px 6px 0px #A0A0A0;
@@ -91,4 +91,48 @@ header {
 }
 .feature-img img {
   width: 100%;
+}
+
+/* ================ footer style ================ */
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  background-clip: padding-box;
+  color: #fff;
+  padding: 20px;
+}
+.footer-logo {
+  width: 40%;
+}
+address ul {
+  padding: 20px;
+}
+li {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+span {
+  position: relative;
+  left: 15px;
+}
+#address {
+  list-style: url("images/icon-location.svg");
+}
+#phone {
+  list-style: url("images/icon-phone.svg");
+}
+#mail {
+  list-style: url("images/icon-email.svg");
+}
+.social {
+  text-align: center;
+  margin-bottom: 30px;
+}
+i {
+  padding: 0 5px;
+  font-size: 2rem;
+}
+small {
+  font-size: 0.7rem;
+  display: block;
+  text-align: center;
 }
