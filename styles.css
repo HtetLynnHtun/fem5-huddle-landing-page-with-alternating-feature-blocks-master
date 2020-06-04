@@ -92,13 +92,19 @@ header {
 .feature-img img {
   width: 100%;
 }
+.feature-4 {
+  position: relative;
+  top: 100px;
+  background-color: #fff;
+}
 
 /* ================ footer style ================ */
 .footer {
+  padding: 20px;
+  padding-top: 100px;
   background-color: hsl(192, 100%, 9%);
   background-clip: padding-box;
   color: #fff;
-  padding: 20px;
 }
 .footer-logo {
   width: 40%;
@@ -135,4 +141,83 @@ small {
   font-size: 0.7rem;
   display: block;
   text-align: center;
+}
+
+/* =================== Desktop Layout ====================== */
+@media (min-width: 768px) {
+  header {
+    padding: 40px;
+  }
+  .logo {
+    width: 15%;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+  .box-a {
+    width: 50%;
+    margin-right: 20px;
+    align-self: center;
+    text-align: left;
+  }
+  .box-b {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .cta {
+    width: 35%;
+  }
+
+  /* ===== Features ======= */
+  .container {
+    margin: 60px;
+  }
+  .feature {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .feature div {
+    width: 50%;
+    margin: 50px;
+  }
+  .feature-img img {
+    width: 80%;
+  }
+  .feature-1 .feature-img, .feature-3 .feature-img {
+    order: 1;
+  }
+  .feature-4 {
+    flex-direction: column;
+    width: 50%;
+    margin: 50px auto;
+  }
+  .feature-4 .cta {
+    margin-top: 20px;
+  }
+
+  /* ===== Footer ============ */
+  .footer {
+    padding: 100px 100px 50px 100px;
+  }
+  .footer-logo {
+    width: 15%;
+  }
+  .footer-container {
+    display: flex;
+  }
+  address {
+    width: 30%;
+  }
+  nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+  }
+  small {
+    text-align: right;
+  }
 }
